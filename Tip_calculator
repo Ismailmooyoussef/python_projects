@@ -1,6 +1,6 @@
-#Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
+#Tip: There are 2 ways to round a number.
 
-#Write your code below this line 👇
+# your code below this line 👇
 weclome = print("Welcome to the tip calaculator.")
 total_bill = float(input("what was the total bill? $"))
 percentage = int(input("what percentage? "))
