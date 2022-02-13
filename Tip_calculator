@@ -1,0 +1,15 @@
+#Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
+
+#Write your code below this line 👇
+weclome = print("Welcome to the tip calaculator.")
+total_bill = float(input("what was the total bill? $"))
+percentage = int(input("what percentage? "))
+people = int(input("how many people "))
+
+money= (total_bill / people ) *   (1 + percentage/100 )
+
+
+total = round(money,2)
+
+
+print( f"Each person shoud pay: ${total}")
